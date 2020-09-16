@@ -1,0 +1,48 @@
+Programmer: Jeremy Ho
+Instructor Name: Jarus
+File: hw1.txt
+Section : 1J
+Date: 08/29/2016
+Purpose: Creating step by step algorithms of given problems
+
+1.)
+
+1.Start at party entrance
+2.Input Student ID into narrow-necked urn if you have one. Else give up.
+3.Enter through the door
+4.Party and then leave
+5.Grab narrow-necked urn
+6.Turn narrow-necked urn upside down
+7.Shake urn until random Student ID drops
+8.Grab one random Student ID
+9.Check Student ID if it is yours
+10.If yours, leave, else continue to line 11
+11.Look for student not paired with anyone else
+12.Talk to student and check both Student ID if it matches the user or student
+13.If User or Student ID match either person, trade Student IDs
+14.Go to line 9.
+
+
+2.)
+
+1.Set a to number of digits in number (int)
+2.Set product to zero
+3.Input base 12 number
+4.Multiply the first digit by 12 to the power of a and add to product
+5.Multiply the next number by 12 to the power of a minus one and add to product
+6.Go to line 4 until a is less than zero
+7.Output base 10 with product result
+
+
+3.)
+
+1.Assign letters to numeric value
+2.Input two words
+3.Check first letter of both words if they are different, if so, continue to
+line 6.
+4.Check the next letter on both words, if next letter character is unapplicable, assign null
+and continue to line 7.
+5.If the letter values are different, continue to line 6, else go to line 4.
+6.Subtract the lowest numeric value from the highest numeric value of the two letters.
+7.Output and print: HighestLetter(value)-LowestLetter(value)= Result
+ 
